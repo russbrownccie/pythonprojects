@@ -8,8 +8,13 @@
 # for example, try 999999947 and 999999937 - timers are imported to see performance.
 import time
 import math
+import random
 
 number = int(input("What is the number you want to test?: "))
+if number == 0:
+    number = random.randint(10000000001, 99999999999, )
+    print (number)
+
 is_it_prime = True
 factor = []
 second_factor = []
@@ -47,3 +52,4 @@ else:
         print(f"computation ran in {toc - tic:0.4f} seconds")
     else:
         print("Affirmative - Good bye")
+
