@@ -10,10 +10,10 @@ import time
 import math
 import random
 
-number = int(input("What is the number you want to test?: "))
+number = int(input("What is the number you want to test?: Hit 0 for a random 18 digit odd number: "))
 if number == 0:
-    number = random.randint(10000000001, 99999999999, )
-    print (number)
+    number = random.randrange(100_00000_00000_00001, 999_99999_99999_99999, 2)
+    print(number)
 
 is_it_prime = True
 factor = []
@@ -52,4 +52,3 @@ else:
         print(f"computation ran in {toc - tic:0.4f} seconds")
     else:
         print("Affirmative - Good bye")
-
