@@ -1,0 +1,1 @@
+{'Leg Extension': 80, 'Leg Curl': 85, 'Chest Press': 95, 'Compound Row': 95, 'Chest Fly': 80, 'Lateral Raise': 75, 'Bicep Curl': 70, 'Tricep Curl': 105}
