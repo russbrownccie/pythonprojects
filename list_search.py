@@ -1,13 +1,13 @@
 # List_search v0.1 - Russ Brown
 # This program goes thru a list of 100k numbers, picks one at random, removes it from the list and keeps trying.
 # I was interested in how many guesses and how long it would take to get the full 100k with the random generator
-# future changes might include inputing the range and being able to adjust all variables based on that number
+# future changes might include being able to input the range and being able to adjust all variables based on that number
 
 
-import random, time
+import random,time
 ourlist = []
 count = 0
-for i in range (1, 100000):
+for i in range(1, 100000):
     ourlist.append(i)
 
 tic = time.perf_counter()

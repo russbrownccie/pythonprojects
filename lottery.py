@@ -10,7 +10,7 @@ from random import randint
 import time
 
 # Make sure your green entries are sorted low to high or you'll never get a match
-MY_TICKET = {"green": [27, 28, 51, 68, 69], "red": 22}
+MY_TICKET = {"green": [13, 36, 43, 61, 69], "red": 18}
 
 drawing = 0
 start_time = time.time()
